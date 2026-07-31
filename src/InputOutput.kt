@@ -27,5 +27,15 @@ fun main(args:Array<String>){
     println("Enter your hobby: ")
     val hobby = sc.next()
     println("Your hobby is $hobby")
+    var Quantity = Integer.valueOf(sc.nextInt())
+    var Quality = String.format("%.2f", Quantity.toDouble())
+    println("The quality is $Quality")
+
+    // Single Line Comment
+    /*
+    Multi
+    Line
+    Comment
+     */
 
 }
